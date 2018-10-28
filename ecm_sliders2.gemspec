@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'friendly_id'
   s.add_dependency 'mini_magick'
   s.add_dependency 'rails'
+  s.add_dependency 'ecm_core', '>= 0.4.0'
 
   s.add_development_dependency "sqlite3"
 

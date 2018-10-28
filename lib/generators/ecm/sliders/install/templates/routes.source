@@ -1,5 +1,0 @@
-  
-  # ECM Sliders Frontend Routing
-  localized do
-    mount Ecm::Sliders::Engine, at: '/'
-  end
