@@ -4,7 +4,7 @@ module Ecm::SlidersHelper
     if slider.nil?
       return I18n.t('ecm.sliders.slider.warnings.not_found', name: name)
     else
-      return render(slider)
+      return render partial: 'ecm/sliders/sliders/slider', locals: { slider: slider }
     end
   end
 end
