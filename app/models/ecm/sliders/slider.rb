@@ -27,7 +27,7 @@ class Ecm::Sliders::Slider < ActiveRecord::Base
   end
 
   def human
-    name
+    "#{name} (#{locale})"
   end
 
   private
